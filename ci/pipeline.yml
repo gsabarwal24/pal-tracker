@@ -28,4 +28,4 @@ jobs:
       manifest: pal-tracker/manifest.yml
       path: build-output/pal-tracker.jar
       environment_variables:
-        WELCOME_MESSAGE: "Hello from Concourse"
+        WELCOME_MESSAGE: "Hello from Concourse - powered by Docker"
