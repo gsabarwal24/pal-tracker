@@ -52,6 +52,9 @@ flyway {
     locations = ["filesystem:databases/tracker/migrations"]
 }
 
+task testMigrate(type: FlywayMigrateTask) {
+    url = testDbUrl
+}
 jar {
     manifest {
         attributes(
